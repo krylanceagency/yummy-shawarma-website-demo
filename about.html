@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Story | Yummy Shawarma</title>
+  <title data-i18n="title.about">Story | Yummy Shawarma</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,31 +15,38 @@
   </a>
 
   <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="about.html">Story</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="menu.html" data-i18n="nav.menu">Menu</a>
+    <a href="about.html" data-i18n="nav.story">Story</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
   </nav>
 
-  <a href="contact.html" class="nav-button">Order Now</a>
+  <a href="contact.html" class="nav-button" data-i18n="nav.order">Order Now</a>
+  <div class="lang-switch" aria-label="Language switcher">
+    <button class="lang" data-lang="en">EN</button>
+    <span class="lang-sep">|</span>
+    <button class="lang" data-lang="fr">FR</button>
+    <span class="lang-sep">|</span>
+    <button class="lang" data-lang="iu">ᐃᓄᒃᑎᑐᑦ</button>
+  </div>
 </header>
 
 <main>
 
   <section class="page-hero">
     <div>
-      <p class="eyebrow">Our Story</p>
-      <h1>Serving authentic Lebanese flavors in Iqaluit.</h1>
-      <p>
+      <p class="eyebrow" data-i18n="about.eyebrow">Our Story</p>
+      <h1 data-i18n="about.h1">Serving authentic Lebanese flavors in Iqaluit.</h1>
+      <p data-i18n="about.text">
         Fresh ingredients, generous portions and a menu filled with customer favorites.
       </p>
     </div>
   </section>
 
   <section class="section">
-    <p class="eyebrow dark">About Us</p>
+    <p class="eyebrow dark" data-i18n="about.about.eyebrow">About Us</p>
 
-    <h2>More than a restaurant.</h2>
+    <h2 data-i18n="about.about.h2">More than a restaurant.</h2>
 
     <p>
       Yummy Shawarma has become a favorite destination for customers looking for
@@ -61,31 +68,23 @@
     <div class="specialty-grid">
 
       <div class="specialty-card">
-        <h3>Fresh Daily</h3>
-        <p>
-          Meals prepared fresh throughout the day using quality ingredients.
-        </p>
+        <h3 data-i18n="about.fresh.title">Fresh Daily</h3>
+        <p data-i18n="about.fresh.text">Meals prepared fresh throughout the day using quality ingredients.</p>
       </div>
 
       <div class="specialty-card">
-        <h3>Large Portions</h3>
-        <p>
-          Generous portions that keep customers coming back.
-        </p>
+        <h3 data-i18n="about.portions.title">Large Portions</h3>
+        <p data-i18n="about.portions.text">Generous portions that keep customers coming back.</p>
       </div>
 
       <div class="specialty-card">
-        <h3>Family Friendly</h3>
-        <p>
-          Great options for individuals, families and groups.
-        </p>
+        <h3 data-i18n="about.family.title">Family Friendly</h3>
+        <p data-i18n="about.family.text">Great options for individuals, families and groups.</p>
       </div>
 
       <div class="specialty-card">
-        <h3>Local Favorite</h3>
-        <p>
-          Proudly serving the Iqaluit community.
-        </p>
+        <h3 data-i18n="about.local.title">Local Favorite</h3>
+        <p data-i18n="about.local.text">Proudly serving the Iqaluit community.</p>
       </div>
 
     </div>
@@ -136,7 +135,7 @@
   </div>
 
   <div class="footer-bottom">
-    <p>© 2026 Yummy Shawarma. Demo website concept designed by Krylance Agency.</p>
+    <p data-i18n="footer.copy">© 2026 Yummy Shawarma. Demo website concept designed by Krylance Agency.</p>
   </div>
 </footer>
 

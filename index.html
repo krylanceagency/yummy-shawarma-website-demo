@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Yummy Shawarma | Lebanese Cuisine in Iqaluit</title>
+  <title data-i18n="title.home">Yummy Shawarma | Lebanese Cuisine in Iqaluit</title>
   <meta name="description" content="Yummy Shawarma demo website designed by Krylance Agency." />
 
   <link rel="stylesheet" href="style.css" />
@@ -18,62 +18,69 @@
     </a>
 
     <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="menu.html">Menu</a>
-      <a href="about.html">Story</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="menu.html" data-i18n="nav.menu">Menu</a>
+      <a href="about.html" data-i18n="nav.story">Story</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
-    <a href="contact.html" class="nav-button">Order Now</a>
+    <a href="contact.html" class="nav-button" data-i18n="nav.order">Order Now</a>
+    <div class="lang-switch" aria-label="Language switcher">
+      <button class="lang" data-lang="en">EN</button>
+      <span class="lang-sep">|</span>
+      <button class="lang" data-lang="fr">FR</button>
+      <span class="lang-sep">|</span>
+      <button class="lang" data-lang="iu">ᐃᓄᒃᑎᑐᑦ</button>
+    </div>
   </header>
 
   <main>
     <section class="hero home-hero">
       <div class="hero-content">
-        <p class="eyebrow">Fresh • Authentic • Fast</p>
-        <h1>Authentic Lebanese Cuisine in Iqaluit.</h1>
-        <p class="hero-text">Fresh Shawarma • Pizza • Pasta • Family Specials</p>
+        <p class="eyebrow" data-i18n="home.eyebrow">Fresh • Authentic • Fast</p>
+        <h1 data-i18n="home.h1">Authentic Lebanese Cuisine in Iqaluit.</h1>
+        <p class="hero-text" data-i18n="home.text">Fresh Shawarma • Pizza • Pasta • Family Specials</p>
 
         <div class="hero-actions">
-          <a href="menu.html" class="btn primary">View Menu</a>
-          <a href="contact.html" class="btn secondary">Order Online</a>
+          <a href="menu.html" class="btn primary" data-i18n="home.viewMenu">View Menu</a>
+          <a href="contact.html" class="btn secondary" data-i18n="home.orderOnline">Order Online</a>
         </div>
       </div>
     </section>
 
     <section class="section specialties">
-      <p class="eyebrow dark">Our Specialties</p>
-      <h2>Fresh favorites made for every craving.</h2>
+      <p class="eyebrow dark" data-i18n="specialties.eyebrow">Our Specialties</p>
+      <h2 data-i18n="specialties.h2">Fresh favorites made for every craving.</h2>
 
       <div class="specialty-grid">
         <article class="specialty-card">
-          <h3>Shawarma</h3>
-          <p>Fresh wraps, plates, donair, kafta, shish taouk and shish kabab.</p>
+          <h3 data-i18n="spec.shawarma.title">Shawarma</h3>
+          <p data-i18n="spec.shawarma.text">Fresh wraps, plates, donair, kafta, shish taouk and shish kabab.</p>
         </article>
 
         <article class="specialty-card">
-          <h3>Pizza</h3>
-          <p>Cheese, pepperoni, meat lover, vegetarian, donair and Yummy Special.</p>
+          <h3 data-i18n="spec.pizza.title">Pizza</h3>
+          <p data-i18n="spec.pizza.text">Cheese, pepperoni, meat lover, vegetarian, donair and Yummy Special.</p>
         </article>
 
         <article class="specialty-card">
-          <h3>Burgers</h3>
-          <p>Cheeseburgers, chicken burgers, fish burgers and club sandwiches.</p>
+          <h3 data-i18n="spec.burgers.title">Burgers</h3>
+          <p data-i18n="spec.burgers.text">Cheeseburgers, chicken burgers, fish burgers and club sandwiches.</p>
         </article>
 
         <article class="specialty-card">
-          <h3>Italian Dishes</h3>
-          <p>Lasagna, pasta with meat sauce, meatballs, garlic bread and calzone.</p>
+          <h3 data-i18n="spec.italian.title">Italian Dishes</h3>
+          <p data-i18n="spec.italian.text">Lasagna, pasta with meat sauce, meatballs, garlic bread and calzone.</p>
         </article>
 
         <article class="specialty-card">
-          <h3>Starters & Sides</h3>
-          <p>Poutine, fries, onion rings, mozzarella sticks, salads and pita bread.</p>
+          <h3 data-i18n="spec.sides.title">Starters & Sides</h3>
+          <p data-i18n="spec.sides.text">Poutine, fries, onion rings, mozzarella sticks, salads and pita bread.</p>
         </article>
 
         <article class="specialty-card">
-          <h3>Family Meals</h3>
-          <p>Combo boxes, platters and generous meals for groups and families.</p>
+          <h3 data-i18n="spec.family.title">Family Meals</h3>
+          <p data-i18n="spec.family.text">Combo boxes, platters and generous meals for groups and families.</p>
         </article>
       </div>
     </section>
@@ -125,28 +132,28 @@
     </section>
 
     <section class="section reviews-section">
-      <p class="eyebrow dark">Customer Reviews</p>
-      <h2>Loved by customers in Iqaluit.</h2>
+      <p class="eyebrow dark" data-i18n="reviews.eyebrow">Customer Reviews</p>
+      <h2 data-i18n="reviews.h2">Loved by customers in Iqaluit.</h2>
 
       <div class="specialty-grid">
         <article class="specialty-card">
           <h3>★★★★★</h3>
-          <p>Truly authentic Lebanese food with great flavour and friendly service.</p>
+          <p data-i18n="reviews.r1">Truly authentic Lebanese food with great flavour and friendly service.</p>
         </article>
 
         <article class="specialty-card">
           <h3>★★★★★</h3>
-          <p>Always delicious, reliable delivery, and generous portions.</p>
+          <p data-i18n="reviews.r2">Always delicious, reliable delivery, and generous portions.</p>
         </article>
 
         <article class="specialty-card">
           <h3>★★★★★</h3>
-          <p>A local favourite with impressive fries and great shawarma.</p>
+          <p data-i18n="reviews.r3">A local favourite with impressive fries and great shawarma.</p>
         </article>
 
         <article class="specialty-card">
           <h3>★★★★★</h3>
-          <p>One of the best places to eat in Iqaluit.</p>
+          <p data-i18n="reviews.r4">One of the best places to eat in Iqaluit.</p>
         </article>
       </div>
     </section>
@@ -192,7 +199,7 @@
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 Yummy Shawarma. Demo website concept designed by Krylance Agency.</p>
+      <p data-i18n="footer.copy">© 2026 Yummy Shawarma. Demo website concept designed by Krylance Agency.</p>
     </div>
   </footer>
 

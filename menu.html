@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Menu | Yummy Shawarma</title>
+  <title data-i18n="title.menu">Menu | Yummy Shawarma</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -16,178 +16,185 @@
     </a>
 
     <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="menu.html">Menu</a>
-      <a href="about.html">Story</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="menu.html" data-i18n="nav.menu">Menu</a>
+      <a href="about.html" data-i18n="nav.story">Story</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
 
-    <a href="contact.html" class="nav-button">Order Now</a>
+    <a href="contact.html" class="nav-button" data-i18n="nav.order">Order Now</a>
+    <div class="lang-switch" aria-label="Language switcher">
+      <button class="lang" data-lang="en">EN</button>
+      <span class="lang-sep">|</span>
+      <button class="lang" data-lang="fr">FR</button>
+      <span class="lang-sep">|</span>
+      <button class="lang" data-lang="iu">ᐃᓄᒃᑎᑐᑦ</button>
+    </div>
   </header>
 
   <main>
     <section class="page-hero">
       <div>
-        <p class="eyebrow">Our Menu</p>
-        <h1>Explore Yummy Shawarma’s full menu.</h1>
-        <p>Burgers, starters, combo boxes, pizzas, platters, wraps, salads and more.</p>
+        <p class="eyebrow" data-i18n="menu.eyebrow">Our Menu</p>
+          <h1 data-i18n="menu.h1">Explore Yummy Shawarma’s full menu.</h1>
+          <p data-i18n="menu.text">Burgers, starters, combo boxes, pizzas, platters, wraps, salads and more.</p>
       </div>
     </section>
 
     <section class="section menu-tabs-section">
       <div class="menu-tabs">
-        <button class="tab-btn active" data-category="burgers">Burgers</button>
-        <button class="tab-btn" data-category="starters">Starters</button>
-        <button class="tab-btn" data-category="combo">Combo Box</button>
-        <button class="tab-btn" data-category="pizza">Pizza</button>
-        <button class="tab-btn" data-category="platters">Platters</button>
-        <button class="tab-btn" data-category="wraps">Shawarma Wraps</button>
-        <button class="tab-btn" data-category="italian">Italian Dishes</button>
-        <button class="tab-btn" data-category="sides">Side Orders</button>
-        <button class="tab-btn" data-category="salads">Salads</button>
-        <button class="tab-btn" data-category="plates">Plates</button>
+        <button class="tab-btn active" data-category="burgers" data-i18n="menu.tab.burgers">Burgers</button>
+        <button class="tab-btn" data-category="starters" data-i18n="menu.tab.starters">Starters</button>
+        <button class="tab-btn" data-category="combo" data-i18n="menu.tab.combo">Combo Box</button>
+        <button class="tab-btn" data-category="pizza" data-i18n="menu.tab.pizza">Pizza</button>
+        <button class="tab-btn" data-category="platters" data-i18n="menu.tab.platters">Platters</button>
+        <button class="tab-btn" data-category="wraps" data-i18n="menu.tab.wraps">Shawarma Wraps</button>
+        <button class="tab-btn" data-category="italian" data-i18n="menu.tab.italian">Italian Dishes</button>
+        <button class="tab-btn" data-category="sides" data-i18n="menu.tab.sides">Side Orders</button>
+        <button class="tab-btn" data-category="salads" data-i18n="menu.tab.salads">Salads</button>
+        <button class="tab-btn" data-category="plates" data-i18n="menu.tab.plates">Plates</button>
       </div>
 
       <div class="menu-content active" id="burgers">
-        <h2>Burgers</h2>
+        <h2 data-i18n="menu.cat.burgers">Burgers</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Cheese Burger</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Bacon Cheeseburger</h3></div><span>$15.00</span></article>
-          <article class="menu-row"><div><h3>Double Patty</h3></div><span>$17.00</span></article>
-          <article class="menu-row"><div><h3>Chicken Breast Burger</h3></div><span>$14.00</span></article>
-          <article class="menu-row"><div><h3>Smoked Meat</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Chicken Wings</h3><p>Per pound.</p></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Chicken Fingers W/Fries</h3></div><span>$25.00</span></article>
-          <article class="menu-row"><div><h3>Club Sandwich W/Fries</h3></div><span>$24.00</span></article>
-          <article class="menu-row"><div><h3>Beef Or Chicken Stir Fry</h3></div><span>$24.00</span></article>
-          <article class="menu-row"><div><h3>Fish Burger</h3></div><span>$14.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.1.cheese-burger.name">Cheese Burger</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.2.bacon-cheeseburger.name">Bacon Cheeseburger</h3></div><span>$15.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.3.double-patty.name">Double Patty</h3></div><span>$17.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.4.chicken-breast-burger.name">Chicken Breast Burger</h3></div><span>$14.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.5.smoked-meat.name">Smoked Meat</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.6.chicken-wings.name">Chicken Wings</h3><p data-i18n="menu.item.6.chicken-wings.desc">Per pound.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.7.chicken-fingers-w-fries.name">Chicken Fingers W/Fries</h3></div><span>$25.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.8.club-sandwich-w-fries.name">Club Sandwich W/Fries</h3></div><span>$24.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.9.beef-or-chicken-stir-fry.name">Beef Or Chicken Stir Fry</h3></div><span>$24.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.10.fish-burger.name">Fish Burger</h3></div><span>$14.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="starters">
-        <h2>Starters</h2>
+        <h2 data-i18n="menu.cat.starters">Starters</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Mozzarella Sticks</h3><p>Small or large.</p></div><span>$10.00</span></article>
-          <article class="menu-row"><div><h3>French Fries</h3><p>Small or large.</p></div><span>$10.00</span></article>
-          <article class="menu-row"><div><h3>Onion Rings</h3><p>Small or large.</p></div><span>$14.00</span></article>
-          <article class="menu-row"><div><h3>Poutine</h3><p>Small or large.</p></div><span>$20.00</span></article>
-          <article class="menu-row"><div><h3>Donair Poutine</h3><p>Small or large.</p></div><span>$17.00</span></article>
-          <article class="menu-row"><div><h3>Italian Poutine</h3></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Fish & Chips</h3></div><span>$24.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.11.mozzarella-sticks.name">Mozzarella Sticks</h3><p data-i18n="menu.item.11.mozzarella-sticks.desc">Small or large.</p></div><span>$10.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.12.french-fries.name">French Fries</h3><p data-i18n="menu.item.12.french-fries.desc">Small or large.</p></div><span>$10.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.13.onion-rings.name">Onion Rings</h3><p data-i18n="menu.item.13.onion-rings.desc">Small or large.</p></div><span>$14.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.14.poutine.name">Poutine</h3><p data-i18n="menu.item.14.poutine.desc">Small or large.</p></div><span>$20.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.15.donair-poutine.name">Donair Poutine</h3><p data-i18n="menu.item.15.donair-poutine.desc">Small or large.</p></div><span>$17.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.16.italian-poutine.name">Italian Poutine</h3></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.17.fish-chips.name">Fish & Chips</h3></div><span>$24.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="combo">
-        <h2>Combo Box</h2>
+        <h2 data-i18n="menu.cat.combo">Combo Box</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>2 Fingers</h3></div><span></span></article>
-          <article class="menu-row"><div><h3>1 Fish</h3></div><span></span></article>
-          <article class="menu-row"><div><h3>3 Nuggets</h3></div><span></span></article>
-          <article class="menu-row"><div><h3>3 Wings</h3></div><span></span></article>
-          <article class="menu-row"><div><h3>Onion Rings</h3></div><span></span></article>
-          <article class="menu-row"><div><h3>Fries</h3></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.18.2-fingers.name">2 Fingers</h3></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.19.1-fish.name">1 Fish</h3></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.20.3-nuggets.name">3 Nuggets</h3></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.21.3-wings.name">3 Wings</h3></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.22.onion-rings.name">Onion Rings</h3></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.23.fries.name">Fries</h3></div><span></span></article>
         </div>
       </div>
 
       <div class="menu-content" id="pizza">
-        <h2>Pizza</h2>
+        <h2 data-i18n="menu.cat.pizza">Pizza</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Cheese</h3><p>9", 12", 16", 18"</p></div><span>$20.00</span></article>
-          <article class="menu-row"><div><h3>Pepperoni</h3><p>9", 12", 16", 18"</p></div><span>$20.00</span></article>
-          <article class="menu-row"><div><h3>Two Toppings</h3><p>9", 12", 16", 18"</p></div><span>$20.00</span></article>
-          <article class="menu-row"><div><h3>All Dressed</h3><p>Pepperoni, mushrooms, green peppers.</p></div><span>$23.00</span></article>
-          <article class="menu-row"><div><h3>Canadian</h3><p>Bacon, pepperoni, mushrooms.</p></div><span>$24.00</span></article>
-          <article class="menu-row featured"><div><div class="menu-title"><h3>Deluxe</h3><small>Popular</small></div><p>9", 12", 16", 18"</p></div><span>$27.00</span></article>
-          <article class="menu-row featured"><div><div class="menu-title"><h3>Yummy Special</h3><small>Signature</small></div><p>Pepperoni, sausage, green peppers, mushroom, onion.</p></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Vegetarian</h3><p>Mushrooms, green pepper, onion, tomatoes, olives.</p></div><span>$25.00</span></article>
-          <article class="menu-row"><div><h3>Meat Lover</h3><p>Beef, chicken, pepperoni, bacon, donair.</p></div><span>$28.00</span></article>
-          <article class="menu-row"><div><h3>Donair</h3><p>Garlic or red sauce, olive, mushroom, green pepper.</p></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Smoked Meat</h3><p>Smoked meat, green peppers, olive, onion.</p></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Hawaiian</h3><p>Ham and pineapple.</p></div><span>$24.00</span></article>
-          <article class="menu-row"><div><h3>Mexican</h3><p>Chicken, mushroom, green peppers, hot pepper, olive.</p></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Triple Meat</h3><p>Sausage, pepperoni, bacon.</p></div><span>$26.00</span></article>
-          <article class="menu-row"><div><h3>Supreme</h3><p>Bacon, chicken, mushroom, green peppers, hot pepper.</p></div><span>$24.00</span></article>
-          <article class="menu-row"><div><h3>Sausage</h3><p>Sausage, green pepper, mushroom, onion.</p></div><span>$24.00</span></article>
-          <article class="menu-row"><div><h3>Mediterranean</h3><p>Mushroom, green pepper, onion, tomato, olive, feta.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.24.cheese.name">Cheese</h3><p data-i18n="menu.item.24.cheese.desc">9", 12", 16", 18"</p></div><span>$20.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.25.pepperoni.name">Pepperoni</h3><p data-i18n="menu.item.25.pepperoni.desc">9", 12", 16", 18"</p></div><span>$20.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.26.two-toppings.name">Two Toppings</h3><p data-i18n="menu.item.26.two-toppings.desc">9", 12", 16", 18"</p></div><span>$20.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.27.all-dressed.name">All Dressed</h3><p data-i18n="menu.item.27.all-dressed.desc">Pepperoni, mushrooms, green peppers.</p></div><span>$23.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.28.canadian.name">Canadian</h3><p data-i18n="menu.item.28.canadian.desc">Bacon, pepperoni, mushrooms.</p></div><span>$24.00</span></article>
+          <article class="menu-row featured"><div><div class="menu-title"><h3 data-i18n="menu.item.29.deluxe.name">Deluxe</h3><small>Popular</small></div><p data-i18n="menu.item.29.deluxe.desc">9", 12", 16", 18"</p></div><span>$27.00</span></article>
+          <article class="menu-row featured"><div><div class="menu-title"><h3 data-i18n="menu.item.30.yummy-special.name">Yummy Special</h3><small>Signature</small></div><p data-i18n="menu.item.30.yummy-special.desc">Pepperoni, sausage, green peppers, mushroom, onion.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.31.vegetarian.name">Vegetarian</h3><p data-i18n="menu.item.31.vegetarian.desc">Mushrooms, green pepper, onion, tomatoes, olives.</p></div><span>$25.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.32.meat-lover.name">Meat Lover</h3><p data-i18n="menu.item.32.meat-lover.desc">Beef, chicken, pepperoni, bacon, donair.</p></div><span>$28.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.33.donair.name">Donair</h3><p data-i18n="menu.item.33.donair.desc">Garlic or red sauce, olive, mushroom, green pepper.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.34.smoked-meat.name">Smoked Meat</h3><p data-i18n="menu.item.34.smoked-meat.desc">Smoked meat, green peppers, olive, onion.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.35.hawaiian.name">Hawaiian</h3><p data-i18n="menu.item.35.hawaiian.desc">Ham and pineapple.</p></div><span>$24.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.36.mexican.name">Mexican</h3><p data-i18n="menu.item.36.mexican.desc">Chicken, mushroom, green peppers, hot pepper, olive.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.37.triple-meat.name">Triple Meat</h3><p data-i18n="menu.item.37.triple-meat.desc">Sausage, pepperoni, bacon.</p></div><span>$26.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.38.supreme.name">Supreme</h3><p data-i18n="menu.item.38.supreme.desc">Bacon, chicken, mushroom, green peppers, hot pepper.</p></div><span>$24.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.39.sausage.name">Sausage</h3><p data-i18n="menu.item.39.sausage.desc">Sausage, green pepper, mushroom, onion.</p></div><span>$24.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.40.mediterranean.name">Mediterranean</h3><p data-i18n="menu.item.40.mediterranean.desc">Mushroom, green pepper, onion, tomato, olive, feta.</p></div><span>$26.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="platters">
-        <h2>Platters</h2>
+        <h2 data-i18n="menu.cat.platters">Platters</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Chicken Or Beef</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
-          <article class="menu-row"><div><h3>Donair</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
-          <article class="menu-row featured"><div><div class="menu-title"><h3>Mixed</h3><small>Popular</small></div><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$38.00</span></article>
-          <article class="menu-row"><div><h3>Kafta</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
-          <article class="menu-row"><div><h3>Shish Kabab (2x Beef)</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
-          <article class="menu-row"><div><h3>Shish Taouk (2x Chicken)</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
-          <article class="menu-row"><div><h3>Falafel</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
-          <article class="menu-row"><div><h3>Vegetarian</h3><p>Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.41.chicken-or-beef.name">Chicken Or Beef</h3><p data-i18n="menu.item.41.chicken-or-beef.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.42.donair.name">Donair</h3><p data-i18n="menu.item.42.donair.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row featured"><div><div class="menu-title"><h3 data-i18n="menu.item.43.mixed.name">Mixed</h3><small>Popular</small></div><p data-i18n="menu.item.43.mixed.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$38.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.44.kafta.name">Kafta</h3><p data-i18n="menu.item.44.kafta.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.45.shish-kabab-2x-beef.name">Shish Kabab (2x Beef)</h3><p data-i18n="menu.item.45.shish-kabab-2x-beef.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.46.shish-taouk-2x-chicken.name">Shish Taouk (2x Chicken)</h3><p data-i18n="menu.item.46.shish-taouk-2x-chicken.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.47.falafel.name">Falafel</h3><p data-i18n="menu.item.47.falafel.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.48.vegetarian.name">Vegetarian</h3><p data-i18n="menu.item.48.vegetarian.desc">Meat, rice, salad, potatoes, sauce, pita.</p></div><span>$32.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="wraps">
-        <h2>Shawarma Wraps</h2>
+        <h2 data-i18n="menu.cat.wraps">Shawarma Wraps</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Chicken</h3><p>Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Beef</h3><p>Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Donair</h3><p>Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Falafel</h3><p>Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Vegetarian</h3><p>Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Kafta</h3><p>Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Chicken/Beef/Donair Combo</h3><p>Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
-          <article class="menu-row"><div><h3>Vegetarian Combo</h3><p>Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
-          <article class="menu-row"><div><h3>Falafel Combo</h3><p>Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
-          <article class="menu-row"><div><h3>Mixed Combo</h3><p>Wrap, rice or salad or potatoes, and drink.</p></div><span>$27.00</span></article>
-          <article class="menu-row"><div><h3>Kafta Combo</h3><p>Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.49.chicken.name">Chicken</h3><p data-i18n="menu.item.49.chicken.desc">Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.50.beef.name">Beef</h3><p data-i18n="menu.item.50.beef.desc">Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.51.donair.name">Donair</h3><p data-i18n="menu.item.51.donair.desc">Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.52.falafel.name">Falafel</h3><p data-i18n="menu.item.52.falafel.desc">Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.53.vegetarian.name">Vegetarian</h3><p data-i18n="menu.item.53.vegetarian.desc">Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.54.kafta.name">Kafta</h3><p data-i18n="menu.item.54.kafta.desc">Topping choices include lettuce, tomatoes, pickles, onions, turnips, and sauce.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.55.chicken-beef-donair-combo.name">Chicken/Beef/Donair Combo</h3><p data-i18n="menu.item.55.chicken-beef-donair-combo.desc">Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.56.vegetarian-combo.name">Vegetarian Combo</h3><p data-i18n="menu.item.56.vegetarian-combo.desc">Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.57.falafel-combo.name">Falafel Combo</h3><p data-i18n="menu.item.57.falafel-combo.desc">Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.58.mixed-combo.name">Mixed Combo</h3><p data-i18n="menu.item.58.mixed-combo.desc">Wrap, rice or salad or potatoes, and drink.</p></div><span>$27.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.59.kafta-combo.name">Kafta Combo</h3><p data-i18n="menu.item.59.kafta-combo.desc">Wrap, rice or salad or potatoes, and drink.</p></div><span>$25.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="italian">
-        <h2>Italian Dishes</h2>
+        <h2 data-i18n="menu.cat.italian">Italian Dishes</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Lasagna</h3></div><span>$21.00</span></article>
-          <article class="menu-row"><div><h3>Pasta Meat Sauce</h3></div><span>$19.00</span></article>
-          <article class="menu-row"><div><h3>Pasta W/Meat Balls</h3></div><span>$22.00</span></article>
-          <article class="menu-row"><div><h3>Garlic Cheese Bread</h3><p>3 pieces.</p></div><span>$10.00</span></article>
-          <article class="menu-row"><div><h3>Garlic Bread</h3><p>3 pieces.</p></div><span>$6.00</span></article>
-          <article class="menu-row"><div><h3>Calzone</h3></div><span>$20.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.60.lasagna.name">Lasagna</h3></div><span>$21.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.61.pasta-meat-sauce.name">Pasta Meat Sauce</h3></div><span>$19.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.62.pasta-w-meat-balls.name">Pasta W/Meat Balls</h3></div><span>$22.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.63.garlic-cheese-bread.name">Garlic Cheese Bread</h3><p data-i18n="menu.item.63.garlic-cheese-bread.desc">3 pieces.</p></div><span>$10.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.64.garlic-bread.name">Garlic Bread</h3><p data-i18n="menu.item.64.garlic-bread.desc">3 pieces.</p></div><span>$6.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.65.calzone.name">Calzone</h3></div><span>$20.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="sides">
-        <h2>Side Orders</h2>
+        <h2 data-i18n="menu.cat.sides">Side Orders</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Kibbeh</h3></div><span>$5.00</span></article>
-          <article class="menu-row"><div><h3>Meat/Spinach Pie</h3></div><span>$5.00</span></article>
-          <article class="menu-row"><div><h3>Fattoush Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Tabouleh Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Greek Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Caesar Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Vine Leaves</h3></div><span>$7.00</span></article>
-          <article class="menu-row"><div><h3>Pita Bread Pack</h3></div><span>$6.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.66.kibbeh.name">Kibbeh</h3></div><span>$5.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.67.meat-spinach-pie.name">Meat/Spinach Pie</h3></div><span>$5.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.68.fattoush-salad.name">Fattoush Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.69.tabouleh-salad.name">Tabouleh Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.70.greek-salad.name">Greek Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.71.caesar-salad.name">Caesar Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.72.vine-leaves.name">Vine Leaves</h3></div><span>$7.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.73.pita-bread-pack.name">Pita Bread Pack</h3></div><span>$6.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="salads">
-        <h2>Salads</h2>
+        <h2 data-i18n="menu.cat.salads">Salads</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Fattoush Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Tabouleh Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Greek Salad</h3></div><span>$12.00</span></article>
-          <article class="menu-row"><div><h3>Caesar Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.74.fattoush-salad.name">Fattoush Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.75.tabouleh-salad.name">Tabouleh Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.76.greek-salad.name">Greek Salad</h3></div><span>$12.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.77.caesar-salad.name">Caesar Salad</h3></div><span>$12.00</span></article>
         </div>
       </div>
 
       <div class="menu-content" id="plates">
-        <h2>Plates</h2>
+        <h2 data-i18n="menu.cat.plates">Plates</h2>
         <div class="menu-list">
-          <article class="menu-row"><div><h3>Chicken Or Beef</h3><p>Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Donair</h3><p>Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Mixed</h3><p>Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Kafta</h3><p>Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
-          <article class="menu-row"><div><h3>Shish Kabab (2x Beef)</h3><p>Meat, rice, salad, potatoes.</p></div><span>$18.00</span></article>
-          <article class="menu-row"><div><h3>Shish Taouk (2x Chicken)</h3><p>Meat, rice, salad, potatoes.</p></div><span></span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.78.chicken-or-beef.name">Chicken Or Beef</h3><p data-i18n="menu.item.78.chicken-or-beef.desc">Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.79.donair.name">Donair</h3><p data-i18n="menu.item.79.donair.desc">Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.80.mixed.name">Mixed</h3><p data-i18n="menu.item.80.mixed.desc">Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.81.kafta.name">Kafta</h3><p data-i18n="menu.item.81.kafta.desc">Meat, rice, salad, potatoes.</p></div><span>$16.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.82.shish-kabab-2x-beef.name">Shish Kabab (2x Beef)</h3><p data-i18n="menu.item.82.shish-kabab-2x-beef.desc">Meat, rice, salad, potatoes.</p></div><span>$18.00</span></article>
+          <article class="menu-row"><div><h3 data-i18n="menu.item.83.shish-taouk-2x-chicken.name">Shish Taouk (2x Chicken)</h3><p data-i18n="menu.item.83.shish-taouk-2x-chicken.desc">Meat, rice, salad, potatoes.</p></div><span></span></article>
         </div>
       </div>
     </section>
@@ -221,7 +228,7 @@
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 Yummy Shawarma. Demo website concept designed by Krylance Agency.</p>
+      <p data-i18n="footer.copy">© 2026 Yummy Shawarma. Demo website concept designed by Krylance Agency.</p>
     </div>
   </footer>
 
