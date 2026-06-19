@@ -236,22 +236,6 @@ document.addEventListener("DOMContentLoaded", () => {
       "title.menu": "Menu | Yummy Shawarma",
       "title.about": "Histoire | Yummy Shawarma",
       "title.contact": "Contact | Yummy Shawarma"
-    },
-    iu: {
-      // Minimal, vetted Inuktitut labels. All other text falls back to English.
-      "home.eyebrow": "ᐅᓗᓕᖅ • ᐱᖅᑯᖅ • ᐱᐅᓯᖅ",
-      "home.h1": "ᐃᖃᓗᐃᑦ ᐃᓄᖕᓂᖅᑐᖅ.",
-      "home.orderOnline": "ᐅᒥᕈᑕᐅᓯ",
-      "home.viewMenu": "ᐅᒥᑦ",
-      "nav.contact": "ᑐᓂᓯᐊᖅ",
-      "nav.home": "ᐅᖃᐅᓯᖅ",
-      "nav.menu": "ᒥᓐᑯ",
-      "nav.order": "ᐅᒥᕈᑕᐅᓯ",
-      "nav.story": "ᐃᖃᓗᐃᑦ",
-      "title.about": "Yummy Shawarma | ᐃᖃᓗᐃᑦ",
-      "title.contact": "Yummy Shawarma | ᐃᖃᓗᐃᑦ",
-      "title.home": "Yummy Shawarma | ᐃᖃᓗᐃᑦ",
-      "title.menu": "Yummy Shawarma | ᐃᖃᓗᐃᑦ"
     }
   };
 
@@ -289,9 +273,9 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem('site-lang', lang);
   }
 
-  // initialize language (default to English; accept en, fr, iu)
+  // initialize language (default to English; accept en, fr)
   let saved = localStorage.getItem('site-lang') || 'en';
-  if (!['en', 'fr', 'iu'].includes(saved)) {
+  if (!['en', 'fr'].includes(saved)) {
     saved = 'en';
     localStorage.setItem('site-lang', 'en');
   }
