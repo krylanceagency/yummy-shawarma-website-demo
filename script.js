@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "contact.label.sunday": "Dimanche :",
       "contact.text": "Trouvez Yummy Shawarma à Iqaluit et découvrez shawarma, pizza, pâtes, desserts et boissons.",
       "contact.viewMenu": "Voir le menu",
+      "gallery.eyebrow": "Galerie",
+      "gallery.h2": "Un coup d'œil frais sur les favoris locaux.",
       "footer.copy": "© 2026 Yummy Shawarma. Concept de site démo conçu par Krylance Agency.",
       "home.eyebrow": "Frais • Authentique • Rapide",
       "home.h1": "Cuisine libanaise authentique à Iqaluit.",
